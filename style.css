@@ -1,0 +1,81 @@
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+a {
+    width: 30%;
+    height: 40%;
+    color: #fff;
+    text-decoration: none;
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+#foto1 {
+    background-image: url(img/27002.jpg);
+    background-size: 100% 100%;
+    transition: all .4s;
+}
+#foto2 {
+    background-image: url(img/27002.jpg);
+    background-size: 100% 100%;
+    transition: all .4s;
+}
+#foto3 {
+    background-image: url(img/27002.jpg);
+    background-size: 100% 100%;
+    transition: all .4s;
+}
+.color1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: all .4s;
+}
+
+.color2 {
+    transition: all .4s;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(212, 0, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.color3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 195, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+    transition: all .4s;
+}
+/* #foto1:hover,
+#foto2:hover,
+#foto3:hover {
+    background-size: 110% 110%;
+    background-position: center;
+} */
+.color1:hover,
+.color2:hover,
+.color3:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0.815);
+    transform: scale(1.10);
+}
+/* h1:hover {
+    
+} */
